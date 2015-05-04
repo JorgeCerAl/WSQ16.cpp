@@ -32,8 +32,6 @@ int main () {
                 string city = linea.substr(37,4);
                 sumaq = atof(city.c_str()) + sumaq;
                 
-                cout << city << endl;
-            
                 string highway = linea.substr(42,4);
                 sumaw = atof(highway.c_str()) + sumaw;
             
